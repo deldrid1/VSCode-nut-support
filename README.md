@@ -15,3 +15,7 @@ From the author of Squirrel:
 * **if** - if (_statement_) { }
 * **l** - local _variable_
 * **[The Complete imp API](https://electricimp.com/docs/api/complete/)** - Up to date as of Nov 7, 2016 (impOS [Release 34](https://electricimp.com/docs/releasenotes/releases/release34/))
+
+# Contributions
+- the .tmLanguage grammar file is based off of https://github.com/electricimp/ElectricImp-Sublime with some minor fixes per https://github.com/babel/babel-sublime/commit/9c7d32faecbf53e8984d7ab743f7408032286c44	sublime-completions
+- the native Squirrel snippets are originally from https://github.com/robmerrell/squirrel-tmbundle
