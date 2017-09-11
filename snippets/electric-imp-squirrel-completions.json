@@ -1,0 +1,488 @@
+{
+	"scope": "source.squirrel",
+	"completions": {
+		"agent.on": {
+			"prefix": "agent.on",
+			"body": "agent.on(${1:messageName}, ${0:callback})"
+		},
+		"agent.send": {
+			"prefix": "agent.send",
+			"body": "agent.send(${1:messageName}, ${0:data})"
+		},
+
+		"device.isconnected": {
+			"prefix": "device.isconnected",
+			"body": "device.isconnected()"
+		},
+		"device.on": {
+			"prefix": "device.on",
+			"body": "device.on(${1:messageName}, ${0:callback})"
+		},
+		"device.onconnected": {
+			"prefix": "device.onconnected",
+			"body": "device.onconnected(${0:callback})"
+		},
+		"device.ondisconnected": {
+			"prefix": "device.ondisconnected",
+			"body": "device.ondisconnected(${0:callback})"
+		},
+		"device.send": {
+			"prefix": "device.send",
+			"body": "device.send(${1:messageName}, ${0:data})"
+		},
+
+		"hardware.getdeviceid": {
+			"prefix": "hardware.getdeviceid",
+			"body": "hardware.getdeviceid()"
+		},
+		"hardware.lightlevel": {
+			"prefix": "hardware.lightlevel",
+			"body": "hardware.lightlevel()"
+		},
+		"hardware.micros": {
+			"prefix": "hardware.micros",
+			"body": "hardware.micros()"
+		},
+		"hardware.millis": {
+			"prefix": "hardware.millis",
+			"body": "hardware.millis()"
+		},
+		"hardware.vbat": {
+			"prefix": "hardware.vbat",
+			"body": "hardware.vbat()"
+		},
+		"hardware.voltage": {
+			"prefix": "hardware.voltage",
+			"body": "hardware.voltage()"
+		},
+		"hardware.wakereasons": {
+			"prefix": "hardware.wakereasons",
+			"body": "hardware.wakereason()"
+		},
+
+		"http.agenturl": {
+			"prefix": "http.agenturl",
+			"body": "http.agenturl()"
+		},
+		"http.base64decode": {
+			"prefix": "http.base64decode",
+			"body": "http.base64decode(${0:string})"
+		},
+		"http.base64encode": {
+			"prefix": "http.base64encode",
+			"body": "http.base64encode({$0:object})"
+		},
+		"http.get": {
+			"prefix": "http.get",
+			"body": "http.get(${1:url}, ${0:headers})"
+		},
+		"http.httpdelete": {
+			"prefix": "http.httpdelete",
+			"body": "http.httpdelete(${1:url}, ${0:headers})"
+		},
+		"http.jsondecode": {
+			"prefix": "http.jsondecode",
+			"body": "http.jsondecode(${0:string})"
+		},
+		"http.jsonencode": {
+			"prefix": "http.jsonencode",
+			"body": "http.jsonencode(${0:object})"
+		},
+		"http.onrequest": {
+			"prefix": "http.onrequest",
+			"body": "http.onrequest(${0:callback})"
+		},
+		"http.post": {
+			"prefix": "http.post",
+			"body": "http.post(${2:url}, ${1:headers}, ${0:body})"
+		},
+		"http.put": {
+			"prefix": "http.put",
+			"body": "http.put(${2:url}, ${1:headers}, ${0:body})"
+		},
+		"http.request": {
+			"prefix": "http.request",
+			"body": "http.request(${3:verb}, ${2:url}, ${1:headers}, ${0:body})"
+		},
+		"http.urldecode": {
+			"prefix": "http.urldecode",
+			"body": "http.urldecode(${0:object})"
+		},
+		"http.urlencode": {
+			"prefix": "http.urlencode",
+			"body": "http.urlencode(${0:string})"
+		},
+		"http.hash.hmacsha1": {
+			"prefix": "http.hash.hmacsha1",
+			"body": "http.hash.hmacsha1(${1:data}, ${0:key})"
+		},
+		"http.hash.hmacsha256": {
+			"prefix": "http.hash.hmacsha256",
+			"body": "http.hash.hmacsha256${1:data}, ${0:key})"
+		},
+		"http.hash.hmacsha512": {
+			"prefix": "http.hash.hmacsha512",
+			"body": "http.hash.hmacsha512(${1:data}, ${0:key})"
+		},
+		"http.hash.md5": {
+			"prefix": "http.hash.md5",
+			"body": "http.hash.md5(${0:data})"
+		},
+		"http.hash.sha1": {
+			"prefix": "http.hash.sha1",
+			"body": "http.hash.sha1(${0:data})"
+		},
+		"http.hash.sha256": {
+			"prefix": "http.hash.sha256",
+			"body": "http.hash.sha256(${0:data})"
+		},
+		"http.hash.sha512": {
+			"prefix": "http.hash.sha512",
+			"body": "http.hash.sha512(${0:data})"
+		},
+
+		"imp.cancelwakeup": {
+			"prefix": "imp.cancelwakeup",
+			"body": "imp.cancelwakeup(${0:timer})"
+		},
+		"imp.clearconfiguration": {
+			"prefix": "imp.clearconfiguration",
+			"body": "imp.clearconfiguration(${0:CONFIG_WIFI|CONFIG_STATIC_NETWORK|CONFIG_PROXY|CONFIG_ALL})"
+		},
+		"imp.deepsleepfor": {
+			"prefix": "imp.deepsleepfor",
+			"body": "imp.deepsleepfor(${0:seconds})"
+		},
+		"imp.deepsleepuntil": {
+			"prefix": "imp.deepsleepuntil",
+			"body": "imp.deepsleepuntil(${3:hour}, ${2:minute}, ${1:second}, ${0:day})"
+		},
+		"imp.enableblinkup": {
+			"prefix": "imp.enableblinkup",
+			"body": "imp.enableblinkup(${0:state})"
+		},
+		"imp.environment": {
+			"prefix": "imp.environment",
+			"body": "imp.environment()"
+		},
+		"imp.getbootromversion": {
+			"prefix": "imp.getbootromversion",
+			"body": "imp.getbootromversion()"
+		},
+		"imp.getbssid": {
+			"prefix": "imp.getbssid",
+			"body": "imp.getbssid()"
+		},
+		"imp.getchannel": {
+			"prefix": "imp.getchannel",
+			"body": "imp.getchannel()"
+		},
+		"imp.getcountry": {
+			"prefix": "imp.getcountry",
+			"body": "imp.getcountry()"
+		},
+		"imp.getethernetspeed": {
+			"prefix": "imp.getethernetspeed",
+			"body": "imp.getethernetspeed()"
+		},
+		"imp.getmacaddress": {
+			"prefix": "imp.getmacaddress",
+			"body": "imp.getmacaddress()"
+		},
+		"imp.getmemoryfree": {
+			"prefix": "imp.getmemoryfree",
+			"body": "imp.getmemoryfree()"
+		},
+		"imp.getpoweren": {
+			"prefix": "imp.getpoweren",
+			"body": "imp.getpoweren()"
+		},
+		"imp.getpowersave": {
+			"prefix": "imp.getpowersave",
+			"body": "imp.getpowersave()"
+		},
+		"imp.getrssi": {
+			"prefix": "imp.getrssi",
+			"body": "imp.getrssi()"
+		},
+		"imp.getsoftwareversion": {
+			"prefix": "imp.getsoftwareversion",
+			"body": "imp.getsoftwareversion()"
+		},
+		"imp.getssid": {
+			"prefix": "imp.getssid",
+			"body": "imp.getssid()"
+		},
+		"imp.onidle": {
+			"prefix": "imp.onidle",
+			"body": "imp.onidle(${0:callback})"
+		},
+		"imp.rssi": {
+			"prefix": "imp.rssi",
+			"body": "imp.rssi()"
+		},
+		"imp.scanwifinetworks": {
+			"prefix": "imp.scanwifinetworks",
+			"body": "imp.scanwifinetworks()"
+		},
+		"imp.setpoweren": {
+			"prefix": "imp.setpoweren",
+			"body": "imp.setpoweren(${0:state})"
+		},
+		"imp.setcountry": {
+			"prefix": "imp.setcountry",
+			"body": "imp.setcountry(${0:regionCode})"
+		},
+		"imp.setenroltokens": {
+			"prefix": "imp.setenroltokens",
+			"body": "imp.setenroltokens(${1:planID}, ${0:token})"
+		},
+		"imp.setnvramimage": {
+			"prefix": "imp.setnvramimage",
+			"body": "imp.setnvramimage(${0:settings})"
+		},
+		"imp.setpoweren": {
+			"prefix": "imp.setpoweren",
+			"body": "imp.setpoweren(${0:state})"
+		},
+		"imp.setpowersave": {
+			"prefix": "imp.setpowersave",
+			"body": "imp.setpowersave(${0:state})"
+		},
+		"imp.setproxy": {
+			"prefix": "imp.setproxy",
+			"body": "imp.setproxy(${4:PROXY_TYPE_HTTP}, ${3:address}, ${2:port}, ${1:username}, ${0:password})"
+		},
+		"imp.setsendbuffersize": {
+			"prefix": "imp.setsendbuffersize",
+			"body": "imp.setsendbuffersize(${0:numBytes})"
+		},
+		"imp.setwificonfiguration": {
+			"prefix": "imp.setwificonfiguration",
+			"body": "imp.setwificonfiguration(${1:ssid}, ${0:password})"
+		},
+		"imp.sleep": {
+			"prefix": "imp.sleep",
+			"body": "imp.sleep(${0:seconds})"
+		},
+		"imp.wakeup": {
+			"prefix": "imp.wakeup",
+			"body": "imp.wakeup(${1:seconds}, ${0:callback})"
+		},
+
+		"server.bless": {
+			"prefix": "server.bless",
+			"body": "server.bless(${1:testSuccess}, ${0:callback})"
+		},
+		"server.connect": {
+			"prefix": "server.connect",
+			"body": "server.connect(${1:callback}, ${0:timeout})"
+		},
+		"server.disconnect": {
+			"prefix": "server.disconnect",
+			"body": "server.disconnect()"
+		},
+		"server.error": {
+			"prefix": "server.error",
+			"body": "server.error(${0:message})"
+		},
+		"server.expectonlineat": {
+			"prefix": "server.expectonlineat",
+			"body": "server.expectonlineat(${3:hour}, ${2:minute}, ${1:second}, ${0:SUNDAY|MONDAY|TUESDAY|WEDNESDAY|THURSDAY|FRIDAY|SATURDAY})"
+		},
+		"server.expectonlinein": {
+			"prefix": "server.expectonlinein",
+			"body": "server.expectonlinein(${0:seconds})"
+		},
+		"server.factoryblinkup": {
+			"prefix": "server.factoryblinkup",
+			"body": "server.factoryblinkup(${3:SSID}, ${2:password}, ${1:pinOject}, ${1:BLINKUP_FAST|BLINKUP_ACTIVEHIGH})"
+		},
+		"server.flush": {
+			"prefix": "server.flush",
+			"body": "server.flush(${0:seconds})"
+		},
+		"server.isconnected": {
+			"prefix": "server.isconnected",
+			"body": "server.isconnected()"
+		},
+		"server.onunexpecteddisconnect": {
+			"prefix": "server.onunexpecteddisconnect",
+			"body": "server.onunexpecteddisconnect(${0:callback})"
+		},
+		"server.restart": {
+			"prefix": "server.restart",
+			"body": "server.restart()"
+		},
+		"server.save": {
+			"prefix": "server.save",
+			"body": "server.save(${0:table})"
+		},
+		"server.load": {
+			"prefix": "server.load",
+			"body": "server.load()"
+		},
+		"server.log": {
+			"prefix": "server.log",
+			"body": "server.log(${0:message})"
+		},
+		"server.setsendtimeoutpolicy": {
+			"prefix": "server.setsendtimeoutpolicy",
+			"body": "server.setsendtimeoutpolicy(${3:RETURN_ON_ERROR|SUSPECT_ON_ERROR},${2:WAIT_TIL_SENT|WAIT_FOR_ACK},${1:maxTimeout})"
+		},
+		"server.sleepfor": {
+			"prefix": "server.sleepfor",
+			"body": "server.sleepfor(${0:seconds})"
+		},
+		"server.sleepuntil": {
+			"prefix": "server.sleepuntil",
+			"body": "server.sleepuntil(${3:hour}, ${2:minute}, ${1:second}, ${0:SUNDAY|MONDAY|TUESDAY|WEDNESDAY|THURSDAY|FRIDAY|SATURDAY})"
+		},
+
+		"array": {
+			"prefix": "array",
+			"body": "array(${1:numberItems}, ${0:fillValue})"
+		},
+
+		"blob": {
+			"prefix": "blob",
+			"body": "blob(${0:size})"
+		},
+
+		"math.abs": {
+			"prefix": "math.abs",
+			"body": "math.abs(${0:value})"
+		},
+		"math.acos": {
+			"prefix": "math.acos",
+			"body": "math.acos(${0:cosine})"
+		},
+		"math.asin": {
+			"prefix": "math.asin",
+			"body": "math.asin(${0:sine})"
+		},
+		"math.atan": {
+			"prefix": "math.atan",
+			"body": "math.atan(${0:tangent})"
+		},
+		"math.atan2": {
+			"prefix": "math.atan2",
+			"body": "math.atan2(${1:adjacentLength}, ${0:oppositeLength})"
+		},
+		"math.ceil": {
+			"prefix": "math.ceil",
+			"body": "math.ceil(${0:value})"
+		},
+		"math.cos": {
+			"prefix": "math.cos",
+			"body": "math.cos(${0:angle})"
+		},
+		"math.exp": {
+			"prefix": "math.exp",
+			"body": "math.exp(${0:power})"
+		},
+		"math.fabs": {
+			"prefix": "math.fabs",
+			"body": "math.fabs(${0:value})"
+		},
+		"math.floor": {
+			"prefix": "math.floor",
+			"body": "math.floor(${0:value})"
+		},
+		"math.log": {
+			"prefix": "math.log",
+			"body": "math.log(${0:value})"
+		},
+		"math.log10": {
+			"prefix": "math.log10",
+			"body": "math.log10(${0:value})"
+		},
+		"math.pow": {
+			"prefix": "math.pow",
+			"body": "math.pow(${1:base}, ${0:exponent})"
+		},
+		"math.rand": {
+			"prefix": "math.rand",
+			"body": "math.rand()"
+		},
+		"math.sin": {
+			"prefix": "math.sin",
+			"body": "math.sin(${0:angle})"
+		},
+		"math.sqrt": {
+			"prefix": "math.sqrt",
+			"body": "math.sqrt(${0:value})"
+		},
+		"math.tan": {
+			"prefix": "math.tan",
+			"body": "math.tan(${0:angle})"
+		},
+
+		"regexp": {
+			"prefix": "regexp",
+			"body": "regexp(${0:expression})"
+		},
+		"regexp2": {
+			"prefix": "regexp2",
+			"body": "regexp2(${0:expression})"
+		},
+
+		"format": {
+			"prefix": "format",
+			"body": "format(${0:formatString})"
+		},
+		"lstrip": {
+			"prefix": "lstrip",
+			"body": "lstrip(${0:stringToStrip})"
+		},
+		"rstrip": {
+			"prefix": "rstrip",
+			"body": "rstrip(${0:stringToStrip})"
+		},
+		"split": {
+			"prefix": "split",
+			"body": "split(${1:stringToDivide}, ${0:separatorCharacters})"
+		},
+		"strip": {
+			"prefix": "strip",
+			"body": "strip(${0:stringToStrip})"
+		},
+
+		"assert": {
+			"prefix": "assert",
+			"body": "assert(${0:code})"
+		},
+		"castf2i": {
+			"prefix": "castf2i",
+			"body": "castf2i(${0:value})"
+		},
+		"casti2f": {
+			"prefix": "casti2f",
+			"body": "casti2f(${0:value})"
+		},
+		"date": {
+			"prefix": "date",
+			"body": "date(${0:timestamp})"
+		},
+		"getroottable": {
+			"prefix": "getroottable",
+			"body": "getroottable()"
+		},
+		"swap2": {
+			"prefix": "swap2",
+			"body": "swap2(${0:value})"
+		},
+		"swap4": {
+			"prefix": "swap4",
+			"body": "swap4(${0:value})"
+		},
+		"swapfloat": {
+			"prefix": "swapfloat",
+			"body": "swapfloat(${0:value})"
+		},
+		"time": {
+			"prefix": "time",
+			"body": "time()"
+		}
+	}
+}

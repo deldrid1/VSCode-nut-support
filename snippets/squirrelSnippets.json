@@ -1,0 +1,37 @@
+{
+	"class": {
+		"prefix": "class",
+		"body": "class $1 ${2:extends ${3:Parent}} {\n\t$0\n}",
+		"description": "class"
+	},
+	"constr": {
+		"prefix": "constr",
+		"body": "constructor($1) {\n\t${2:base.constructor($3)}\n\t$0\n}",
+		"description": "constructor"
+	},
+	"for": {
+		"prefix": "for",
+		"body": "for ($1; $2; $3) {\n\t$0\n}",
+		"description": "for"
+	},
+	"foreach": {
+		"prefix": "foreach",
+		"body": "foreach ($1 in $2) {\n\t$0\n}",
+		"description": "foreach"
+	},
+	"func": {
+		"prefix": "func",
+		"body": "function $1($2) {\n\t$0\n}",
+		"description": "function"
+	},
+	"if": {
+		"prefix": "if",
+		"body": "if (${1:true}) {${0:$TM_SELECTED_TEXT}}",
+		"description": "if"
+	},
+	"l": {
+		"prefix": "l",
+		"body": "local $0",
+		"description": "local"
+	}
+}

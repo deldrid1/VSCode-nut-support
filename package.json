@@ -1,0 +1,44 @@
+{
+    "name": "Squirrel (Electric Imp) Language Extension",
+    "displayName": "Squirrel (Electric Imp)",
+    "description": "Squirrel (Electric Imp Flavor) Language Colorizer and Snippets for Visual Studio Code",
+    "version": "1.0.0-rc1",
+    "publisher": "deldrid1",
+    "engines": {
+        "vscode": "^1.12.0"
+	},
+	"license": "MIT",
+	"keywords": [
+		"squirrel",
+		"electric imp",
+		"imp",
+	],
+    "categories": [
+		"Languages",
+		"Snippets"
+	],
+	"icon": "icon.png",
+    "contributes": {
+        "languages": [{
+            "id": "squirrel",
+            "aliases": ["Squirrel", "squirrel"],
+            "extensions": [".nut"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "squirrel",
+            "scopeName": "source.squirrel",
+            "path": "./syntaxes/nut.tmLanguage"
+		}],
+		"snippets": [{
+			"language": "squirrel",
+			"path": "./snippets/electric-imp-squirrel-completions.json"
+		}, {
+			"language": "squirrel",
+			"path": "./snippets/squirrelSnippets.json"
+		}]
+	},
+	"files.associations": {
+        "*.nut": "squirrel"
+    }
+}
