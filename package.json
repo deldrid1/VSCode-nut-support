@@ -1,5 +1,5 @@
 {
-    "name": "Squirrel (Electric Imp) Language Extension",
+    "name": "SquirrelLanguageExtension",
     "displayName": "Squirrel (Electric Imp)",
     "description": "Squirrel (Electric Imp Flavor) Language Colorizer and Snippets for Visual Studio Code",
     "version": "1.0.0-rc1",
@@ -11,7 +11,7 @@
 	"keywords": [
 		"squirrel",
 		"electric imp",
-		"imp",
+		"imp"
 	],
     "categories": [
 		"Languages",
